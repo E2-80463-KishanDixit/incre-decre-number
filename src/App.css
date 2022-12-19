@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main_div{
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.functional_div{
+  height: 50vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8%;
+}
+
+
+.designing{
+  width: 85%;
+  background-color: blueviolet;
+  margin: 8px;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+}
+
+p{
+  margin: 30px;
+  padding: 5px;
+  font-size: 2rem;
+}
+
+.btn_green :hover{
+  color: #2ed573;
+}
+.btn_red  :hover{
+  color: #ff4757;
+}
+
+.clock{
+  color: rgb(0, 0, 255);
+  font-size: 8rem;
+}
+
+@media screen and (max-width: 850px) {
+  .designing {
+    font-size: 1rem;
+  }
+}
